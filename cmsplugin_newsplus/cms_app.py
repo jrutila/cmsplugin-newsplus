@@ -8,8 +8,7 @@ from .menu import NewsItemMenu
 
 class NewsAppHook(CMSApp):
     name = _('News App')
-    urls = []
+    urls = ['cmsplugin_newsplus.urls']
     menus = [NewsItemMenu]
-
 
 apphook_pool.register(NewsAppHook)
