@@ -23,8 +23,8 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        'Django',
-        'django-cms >= 2.4',
+        'Django >= 1.8',
+        'django-cms >= 3.3',
         'djangocms-text-ckeditor >= 2.0',
         'Pillow',
     ],
